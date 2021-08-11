@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link ref="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Money</title>
+</head>
+<style>
+    .header{
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    line-height: 3;
+    border: 5px solid black;
+    left: 0;
+}
+</style>
+<body style="text-align: center;">
+    <div class="header">SEND MONEY</div>
+    <br>
+    <div style="border: 5px solid black; border-radius: 20px;">   
+        <br>
+        <input type="number" style="color: black;" placeholder="Type the phone number who you want to trasfer money to ">
+        <br><br>
+        <label style="font-family: cursive;">Your Code Is : 121</label>
+        <br>
+        <p style="font-family: cursive;">Type your code in the other device</p>
+        <button style="border-radius: 20px;" onclick="sumbit()">SUMBIT-></button>
+        <br>
+        <script>
+            function sumbit()
+            {
+                window.location = "login.html";
+            }
+        </script>
+    </div>
+</body>
+</html>

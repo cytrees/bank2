@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link ref="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECIVE MONEY</title>
+</head>
+<style>
+    .header{
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    line-height: 3;
+    border: 5px solid black;
+    left: 0;
+}
+</style>
+<body style="text-align: center;">
+    <div class="header">RECIVE MONEY</div>
+    <br>
+    <div style="border: 5px solid black; border-radius: 20px;">   
+       <label style="font-family: cursive;">Type Your Code</label>
+       <br><br>
+       <input type="number" id="code" style="color: black;" placeholder="Code">
+       <br><br>
+    <button style="border-radius: 20px; width: 20%;" onclick="check()">CHECK</button>
+    <script>
+        function check()
+        {
+            window.location = "success.html";
+        }
+    </script>
+    </div>
+</body>
+</html>
